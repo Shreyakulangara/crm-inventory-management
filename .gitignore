@@ -1,0 +1,25 @@
+# Django and Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+crm_venv/  # Replace with the name of your virtual environment if different
+
+# Sensitive files
+.env
+*.pem
+secrets.json
+
+# IDE files
+.vscode/
+*.code-workspace
+
+# Django static and media files
+staticfiles/
+media/
